@@ -1,0 +1,18 @@
+@use '../abstracts/variables/colors' as colors;
+
+.primary {
+  color: colors.$primary-color;
+  padding: 1rem;
+  &:hover {
+    color: colors.$secondary-color;
+  }
+}
+
+.secondary {
+  color: colors.$secondary-color;
+  padding: 1rem;
+
+  &:hover {
+    color: colors.$primary-color;
+  }
+}

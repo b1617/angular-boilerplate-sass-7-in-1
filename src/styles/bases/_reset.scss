@@ -1,0 +1,32 @@
+@use '../abstracts/variables/fonts' as fonts;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+  &::after,
+  &::before {
+    box-sizing: inherit;
+  }
+}
+
+html {
+  height: 100%;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: fonts.$font-title;
+}
+
+p {
+  font-family: fonts.$font-paragraph;
+}
+
+a {
+  text-decoration: none;
+}

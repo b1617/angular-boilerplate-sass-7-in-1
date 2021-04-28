@@ -1,0 +1,22 @@
+.mat {
+  width: 100%;
+  display: inline-flex;
+
+  .mat-50-left {
+    width: 50%;
+    margin-right: 10px;
+  }
+  .mat-50-right {
+    width: calc(50% - 10px);
+  }
+  .full-line {
+    width: 100%;
+  }
+  .mat-33-left {
+    width: 33%;
+    margin-right: 10px;
+  }
+  .mat-33-right {
+    width: calc(33% - 10px);
+  }
+}

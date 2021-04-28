@@ -1,0 +1,5 @@
+@use '../../styles/abstracts/variables/colors' as colors;
+
+.test {
+  color: colors.$primary-color;
+}

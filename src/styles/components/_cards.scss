@@ -1,0 +1,16 @@
+@use '../abstracts/mixins' as mixins;
+
+.card {
+  padding: 2rem;
+  margin: 2rem;
+  height: 100px;
+  @include mixins.boxShadow;
+
+  &-container {
+    display: flex;
+
+    .container-title {
+      color: red;
+    }
+  }
+}
